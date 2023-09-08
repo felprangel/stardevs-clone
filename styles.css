@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900;1000&display=swap');
 
 * {
     margin: 0;
@@ -19,13 +19,24 @@ body {
 header {
     padding: 32px;
     height: 46px;
+    align-items: center;
 }
 
 #header {
-    margin: 0px 0px 32px;
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    text-align: center;
+    margin: 28px auto 32px auto;
     padding: 8px 32px;
     border: 1px solid white;
     border-radius: 30px;
+}
+
+#conteudo {
+    font-weight: 900;
+    font-size: 32px;
+    text-align: center;
 }
 
 a {
@@ -35,6 +46,10 @@ a {
 
 div {
     color: white;
+}
+
+span {
+    color: #4169E1;
 }
 
 footer {
