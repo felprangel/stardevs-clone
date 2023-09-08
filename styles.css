@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800;900;1000&display=swap');
 
 * {
     margin: 0;
@@ -34,9 +34,16 @@ header {
 }
 
 #conteudo {
-    font-weight: 900;
+    font-weight: 1000;
     font-size: 32px;
     text-align: center;
+    margin: 0 0 32px;
+}
+
+#texto {
+    text-align: center;
+    font-size: 19.1px;
+    font-weight: 500;
 }
 
 a {
