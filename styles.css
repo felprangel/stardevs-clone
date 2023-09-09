@@ -46,6 +46,31 @@ header {
     font-weight: 500;
 }
 
+#button {
+    background-color: #7097EA;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    padding: 24px;
+    margin: 32px auto 0 auto;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#button:hover{
+    background-color: #4169E1;
+}
+
+button {
+    font-size: 16px;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 a {
     text-decoration: none;
     color: white
