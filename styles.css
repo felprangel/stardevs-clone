@@ -22,6 +22,11 @@ header {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+    color: white
+}
+
 #header {
     display: flex;
     justify-content: center;
@@ -34,10 +39,14 @@ header {
 }
 
 #conteudo {
-    font-weight: 1000;
-    font-size: 32px;
+    font-weight: 800;
+    font-size: 64px;
     text-align: center;
     margin: 0 0 32px;
+}
+
+span {
+    color: #4169E1;
 }
 
 #texto {
@@ -71,17 +80,8 @@ button {
     cursor: pointer;
 }
 
-a {
-    text-decoration: none;
-    color: white
-}
-
 div {
     color: white;
-}
-
-span {
-    color: #4169E1;
 }
 
 footer {
